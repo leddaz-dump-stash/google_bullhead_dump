@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+kernel_size=10825525
+ramdisk_size=1232514
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x02000000
+tags_offset=0x01e00000
+cmd_line='console=ttyHSL0,115200,n8 androidboot.hardware=bullhead boot_cpus=0-5 lpm_levels.sleep_disabled=1 msm_poweroff.download_mode=0 loop.max_part=7 buildvariant=user'
+board=""
+format=gzip
